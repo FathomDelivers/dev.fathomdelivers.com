@@ -1,0 +1,123 @@
+.grey {
+  background: #F9F9F9;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding:0px 0px 24px 0px;
+    background-color: transparent;
+    color:#484848;
+}
+
+/* h1-h6 */
+h1 {
+    font-size:25px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 16px;
+}
+
+label {
+    font-size: 15px;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+
+.statement {
+    text-align: center;
+    margin-bottom: 24px;
+}
+.fathom {
+    margin-top: 48px;
+    height: 80px;
+    background: url(../images/fathom.svg) no-repeat scroll 50% 0 transparent;
+    background-size: 72px;
+}
+
+.form-control {
+	border: 2px solid #c9c9c9;
+}
+.help-block {
+    word-wrap: break-word;
+    font-size: 13px;
+    font-weight: 600;
+    position: relative;
+    color: #848484;
+}
+.help-block {
+    opacity: 0;
+    height: 0px
+}
+.field-wrapper textarea:focus,
+.field-wrapper input:focus,
+.field-wrapper select:focus {
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+    border: 2px solid #537e98;
+    outline-color: transparent;
+    outline-style: none;
+}
+.field-wrapper textarea:focus~.help-block, 
+.field-wrapper input:focus~.help-block, 
+.field-wrapper select:focus~.help-block {
+    transition: all .25s ease-in-out 0s;
+    opacity: 1.0;
+    line-height: 1.25em;
+    padding-bottom: 18px;
+}
+.btn-info {
+    color: #fff;
+    background-color: #32363D;
+    border-color: #32363D;
+}.btn-info:hover {
+    color: #fff;
+    background-color: #537e98;
+    border-color: #537e98;
+}
+
+
+/* banner */
+.banner {
+    background-color: #537e98;
+    color:#fff;
+    text-align: center;
+    height: 300px;
+    padding:48px 0;
+    margin-bottom:24px;
+}
+
+/* feature-block */
+.feature-block {
+    background-color:#F6F9FA;
+    border-radius: 10px;
+    margin-bottom:15px;
+    padding:30px;
+    min-height: 400px;
+}
+.icon {
+    width: 40px;
+}
+.circle {
+    background: #DCDCDC;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    padding: 12px 14px;
+}
+.separator {
+    height: 3px;
+    width: 24px;
+    margin-bottom: 15px;
+    background-color: #DCDCDC;
+}
+
+/* footer */
+.footer {
+    margin-top:12px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+.footer p {
+    font-size: 11px;
+}
