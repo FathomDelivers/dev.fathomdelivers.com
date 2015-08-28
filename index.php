@@ -20,7 +20,7 @@
         </div>
         <div class="statement">
             <h1>Begin your development project.</h1>
-            <p>Send your request or quote in under 60 seconds.</p>
+            <p>Send your request or quote in under 60 seconds. Alternatively, you can also send us an email at <a href="mailto:dev@fathomdelivers.com?subject=New%20Project">dev@fathomdelivers.com</a></p>
         </div>
         <div id="box_form">
           <form id="zFormer" method="post" action="handler.php" name="zFormer">
